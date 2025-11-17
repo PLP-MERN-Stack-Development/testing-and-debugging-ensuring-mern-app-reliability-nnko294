@@ -1,0 +1,23 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest --passWithNoTests",
+    "test:unit": "jest --testPathPattern=src/tests/unit --passWithNoTests",
+    "coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "babel-jest": "^29.0.0",
+    "@babel/preset-react": "^7.22.0",
+    "@babel/preset-env": "^7.22.0",
+    "jest": "^29.0.0",
+    "jest-environment-jsdom": "^29.0.0"
+  }
+}
